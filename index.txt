@@ -1,0 +1,6 @@
+there are 4 types of status in git.
+1. untracked : we create new file on our local device and our reposotiry do not know about it. git does not track yet
+2. modified: we make change on the file that exist on repository(github) from local device, and that change is only on our device.
+3. unmodified: it means we do not make any change.
+4. staged: it is a condition in which me add our modification/change/new_file on repository and it is ready to be commited. 
+5. code to add file: git add file_name
