@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e8f1f1;
+        }
+
+        .container {
+            /* border: solid 2px black; */
+            height: 500px;
+            width: 1000px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: -230px;
+        }
+
+        .text {
+            height: 200px;
+            width: 370px;
+            /* border: solid 2px red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .container .text img {
+            height: 80px;
+            margin-left: -24px;
+
+        }
+
+        .container .text h2 {
+            font-weight: 500;
+        }
+
+        .login {
+            height: 273px;
+            width: 300px;
+            /* border: 2px solid blue; */
+            margin-left: 60px;
+            background-color: white;
+            box-shadow: 0px 0px 5px 3px #ddd0d0;
+            border-radius: 6px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 80px;
+        }
+
+        .login input {
+            border: solid 1px #c5d8d7;
+            height: 23px;
+            width: 277px;
+            border-radius: 5px;
+            padding: 10px;
+            padding-left: 15px;
+            background-color: #fff1f1;
+        }
+
+        .login #password {
+            margin-top: 12px;
+        }
+
+        .login #btn {
+            /* border: solid 1px #c5d8d7; */
+            height: 42px;
+            width: 303px;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            padding-left: 15px;
+            background-color: #4a60ba;
+            margin-top: 12px;
+            color: white;
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .login .fogPass {
+            width: 295px;
+            font-size: 13px;
+            color: #4e4ec8;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 500;
+            border-bottom: 1px solid #cec5c5;
+            padding-bottom: 14px;
+        }
+
+        .login .btn2 {
+            height: 42px;
+            width: 164px;
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: 700;
+            color: white;
+            background-color: #28b028;
+            border: none;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+                alt="Facebook">
+            <h2>Connect with friends and the world around you on Facebook.</h2>
+        </div>
+
+        <div class="login">
+            <input type="text" id="email" placeholder="Email or phone number">
+            <input type="password" id="password" placeholder="Password">
+            <button id="btn">Log In</button>
+            <div class="fogPass">Forgot password?</div>
+            <button class="btn2">Create new account</button>
+        </div>
+    </div>
+</body>
+
+</html>
